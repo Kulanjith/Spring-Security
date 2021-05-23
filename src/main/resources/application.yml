@@ -1,0 +1,19 @@
+
+
+
+server:
+  port: 8085
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/springsecurity
+    username: root
+    password: devin
+
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5Dialect
+    hibernate:
+      ddl-auto: none
+      naming-stragedy: org.hibernate.cfg.ImprovedNamingStrategy
